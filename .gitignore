@@ -1,0 +1,17 @@
+# Firebase secrets
+**/google-services.json
+**/GoogleService-Info.plist
+**/lib/firebase_options.dart
+.env
+*.env
+
+# Flutter
+**/build/
+**/.dart_tool/
+**/pubspec.lock
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+
+# General
+.DS_Store
+*.log
