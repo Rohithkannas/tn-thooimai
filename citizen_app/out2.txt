@@ -1,0 +1,15 @@
+Analyzing citizen_app...
+
+  error - lib\providers\auth_provider.dart:15:36 - The function 'StateProvider' isn't defined. Try importing the library that defines 'StateProvider', correcting the name to the name of an existing function, or defining a function named 'StateProvider'. - undefined_function
+  error - lib\providers\auth_provider.dart:16:32 - The function 'StateProvider' isn't defined. Try importing the library that defines 'StateProvider', correcting the name to the name of an existing function, or defining a function named 'StateProvider'. - undefined_function
+warning - lib\services\auth_service.dart:1:8 - Unused import: 'package:flutter/foundation.dart'. Try removing the import directive. - unused_import
+   info - lib\main.dart:95:14 - An uninitialized field should have an explicit type annotation. Try adding a type annotation. - prefer_typing_uninitialized_variables
+   info - lib\screens\classify_screen.dart:180:32 - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check. Guard a 'State.context' use with a 'mounted' check on the State, and other BuildContext use with a 'mounted' check on the BuildContext. - use_build_context_synchronously
+   info - lib\screens\classify_screen.dart:190:32 - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check. Guard a 'State.context' use with a 'mounted' check on the State, and other BuildContext use with a 'mounted' check on the BuildContext. - use_build_context_synchronously
+   info - lib\screens\classify_screen.dart:338:63 - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - lib\screens\classify_screen.dart:362:28 - Use a 'SizedBox' to add whitespace to a layout. Try using a 'SizedBox' rather than a 'Container'. - sized_box_for_whitespace
+   info - lib\screens\classify_screen.dart:416:46 - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - lib\screens\signup_screen.dart:155:27 - 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - scripts\gen_json.dart:35:3 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+
+11 issues found.
